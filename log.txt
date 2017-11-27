@@ -1,0 +1,114 @@
+commit 0672a5b17b5af2c0f7bb2a750c480f6cd9dd2d9c
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:56:20 2017 +0900
+
+    pをprintに変更
+
+diff --git a/fizzbuzz.rb b/fizzbuzz.rb
+index e6ca4af..b2e0670 100644
+--- a/fizzbuzz.rb
++++ b/fizzbuzz.rb
+@@ -1,10 +1,10 @@
+ 1.upto(100){|num|
+ 	if num % 3 == 0 && num % 5 == 0
+-		p "FizzBuzz"
++		print "FizzBuzz\n"
+ 	elsif num % 3 == 0
+-		p "Fizz"
++		print "Fizz\n"
+ 	elsif num % 5 == 0
+-		p "Buzz"
++		print "Buzz\n"
+ 	else
+ 		p num
+ 	end
+
+commit a2a29712fb044cd16948cee954abe98e2ad6bd06
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:38:03 2017 +0900
+
+    create code
+
+diff --git a/fizzbuzz.rb b/fizzbuzz.rb
+index e69de29..e6ca4af 100644
+--- a/fizzbuzz.rb
++++ b/fizzbuzz.rb
+@@ -0,0 +1,11 @@
++1.upto(100){|num|
++	if num % 3 == 0 && num % 5 == 0
++		p "FizzBuzz"
++	elsif num % 3 == 0
++		p "Fizz"
++	elsif num % 5 == 0
++		p "Buzz"
++	else
++		p num
++	end
++}
+
+commit f77bf5a35d5c482b5527e214ba7a2fe4f4fa849f
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:27:18 2017 +0900
+
+    add fizzbuzz.rb
+
+diff --git a/fizzbuzz.rb b/fizzbuzz.rb
+new file mode 100644
+index 0000000..e69de29
+
+commit e74c21bfab4dbec61dd58e2107ef3d26bf392238
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:20:47 2017 +0900
+
+    remove test.txt
+
+diff --git a/test.txt b/test.txt
+deleted file mode 100644
+index e69de29..0000000
+
+commit c7b6b9db35cbab9bfad83d10034f1decef4834f3
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:19:51 2017 +0900
+
+    add test.txt
+
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit cf0c39adcb084568c9e890871319a9d53239de51
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:18:11 2017 +0900
+
+    Add index
+
+diff --git a/README.md b/README.md
+index b399233..7a4de2a 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+ Git tutorial
++It's Git tutorial
+
+commit ba2cf8c2c3ddb0d217ec132f45a1f587a01671d8
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:13:01 2017 +0900
+
+    2017-11-21 modified by murakoso
+
+diff --git a/README.md b/README.md
+index e69de29..b399233 100644
+--- a/README.md
++++ b/README.md
+@@ -0,0 +1 @@
++Git tutorial
+
+commit d4d9e680c626f7fb3174e7c46eff174e20ca465d
+Author: Murakoso Kosei <j1436@matsue-ct.jp>
+Date:   Tue Nov 21 09:11:10 2017 +0900
+
+    first commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..e69de29
