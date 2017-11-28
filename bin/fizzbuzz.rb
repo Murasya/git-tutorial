@@ -5,6 +5,8 @@
 		print "Fizz\n"
 	elsif num % 5 == 0
 		print "Buzz\n"
+	elsif num % 7 == 0
+		print "git\n"
 	else
 		p num
 	end
